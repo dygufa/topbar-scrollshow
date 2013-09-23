@@ -4,8 +4,7 @@ The goal of this plugin is not generate the interface for the carrousel, it's ju
 
 ## Options
 
-`
-var settings = $.extend({
+`var settings = $.extend({
     number: 3,
     size: 150,
     minusArrow: '.sc-minus',
@@ -14,9 +13,7 @@ var settings = $.extend({
     item: '.sc-item',
     axis: 'x',
     speed: 600
-}, options);
-
-`
+}, options);`
 
 * number: it's the number of visible itens;
 * size: width or height (depending on the axis) of each item;
