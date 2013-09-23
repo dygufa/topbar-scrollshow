@@ -6,7 +6,7 @@
     $.fn.simpleCarousel = function(options) {    
         var settings = $.extend({
             number: 3,
-            width: 150,
+            size: 150,
             minusArrow: '.sc-minus', // pull to left or top
             plusArrow: '.sc-plus', // pull to right or bottom
             container: '.sc-container',
@@ -47,7 +47,7 @@
 
             toggleArrow();
 
-            _this.find(settings.container).animate({'margin-left': sign + (settings.width*settings.number) + 'px'}, settings.speed, function() {
+            _this.find(settings.container).animate({'margin-left': sign + (settings.size*settings.number) + 'px'}, settings.speed, function() {
                 transtionEnabled = false;
             });
         }
