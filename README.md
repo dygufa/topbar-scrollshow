@@ -1,6 +1,6 @@
 # Topbar SS
 
-The goal of this plugin is show a fixed topbar when the "scrollHeight" to exceed the value setted in "distance" (pixels).
+The goal of this plugin is to show a fixed topbar when the "scrollHeight" to exceed the value setted in "distance" (pixels).
 
 ## Options
 

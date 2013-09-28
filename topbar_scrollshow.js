@@ -1,5 +1,5 @@
 /* Copyright (c) 2013 Rodrigo Araujo (http://dygufa.com)
-* Version: 0.0.0
+* Version: 0.0.1
 */
 
 (function ($) { 
@@ -14,7 +14,7 @@
 
         $(settings.trigger).scroll(function() {
             var top_distance = $(settings.trigger).scrollTop();
-            if ((top_distance >= 200 && visible == false) || (top_distance < 200 && visible == true)) {
+            if ((top_distance >= settings.distance && visible == false) || (top_distance < settings.distance && visible == true)) {
                 visible = !visible;
                 $(_this).fadeToggle(250);
             } 
